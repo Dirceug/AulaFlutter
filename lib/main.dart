@@ -11,14 +11,14 @@ void main() => runApp(
               Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
-                  title: Text('10000'),
+                  title: Text('1000.0'),
                   subtitle: Text('12345'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
-                  title: Text('20000'),
+                  title: Text('2000.0'),
                   subtitle: Text('67890'),
                 ),
               ),
