@@ -6,7 +6,8 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Tranferência'),
           ),
-          floatingActionButton: FloatingActionButton,
+          floatingActionButton: FloatingActionButton(
+              onPressed: () {}, child: const Icon(Icons.add)),
         ),
         debugShowCheckedModeBanner: false,
       ),
