@@ -6,13 +6,24 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Transferência'),
           ),
-          body: Card(
+          body: Column(
+            children: [
+              Card(
                 child: ListTile(
                   leading: Icon(Icons.monetization_on),
                   title: Text('10000'),
                   subtitle: Text('12345'),
-                )
+                ),
               ),
+              Card(
+                child: ListTile(
+                  leading: Icon(Icons.monetization_on),
+                  title: Text('20000'),
+                  subtitle: Text('67890'),
+                ),
+              ),
+            ],
+          ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             child: const Icon(Icons.add),
