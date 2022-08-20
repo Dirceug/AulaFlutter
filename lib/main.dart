@@ -7,14 +7,12 @@ void main() => runApp(
             title: Text('Transferência'),
           ),
           body: Card(
-            child: Column(
-              Children: [
-                Text('Teste'),
-                Text('Teste'),
-                Text('Teste'),
-              ]
-            )
-          ),
+                child: ListTile(
+                  leading: Icon(Icons.monetization_on),
+                  title: Text('10000'),
+                  subtitle: Text('12345'),
+                )
+              ),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             child: const Icon(Icons.add),
