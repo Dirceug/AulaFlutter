@@ -6,6 +6,8 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Tranferência'),
           ),
+          floatingActionButton: FloatingActionButton,
         ),
+        debugShowCheckedModeBanner: false,
       ),
     );
