@@ -3,6 +3,11 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: Text('Olá pessoal'),
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text('Tranferência')
+          )
+        )
+        Text('Olá pessoal'),
       ),
     );
