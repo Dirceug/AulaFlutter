@@ -6,7 +6,7 @@ void main() => runApp(
           appBar: AppBar(
             title: Text('Transferência'),
           ),
-          body: Text('teste'),
+          body: Card(child: Text('Teste')),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
             child: const Icon(Icons.add),
